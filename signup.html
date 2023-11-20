@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join with Us</title>
+    <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="signup-page">
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="signup-section-wrapper">
+
+                        <div class="signup-section-wrapper-inner">
+                            <div class="form-section">
+                                <img class="img-fluid logo" src="./assets/images/logo/logo.png" alt="">
+                                <div class="form-content">
+                                    <div class="form-content-inner">
+                                        <div class="tab-bar">
+                                            <button class="tablinks" onclick="openTab(event, 'login')">Login</button>
+                                            <button class="tablinks" onclick="openTab(event, 'signup')">Sign Up</button>
+                                        </div>
+                                        <div class="tab-content-wrapper">
+                                            <div id="login" class="signup-page-tabcontent">
+                                                <form action="#" class="login-form" method="POST">
+                                                    <input type="email" placeholder="Email" class="mb-3">
+                                                    <span class="position-forgot-link">
+                                                        <input type="password" placeholder="Password" class="mb-3">
+                                                        <a href="#" class="forgot-link">Forgot password?</a>
+                                                    </span>
+                                                    <button class="primary-btn">Login</button>
+                                                </form>
+                                            </div>
+
+                                            <div id="signup" class="signup-page-tabcontent">
+                                                <form action="#" class="signup-form" method="POST">
+                                                    <div class="d-flex align-items-center mb-3 gap-3">
+                                                        <input type="text" placeholder="First Name">
+                                                        <input type="text" placeholder="Last Name">
+                                                    </div>
+                                                    <input type="email" placeholder="Email" class="mb-3">
+                                                    <input type="password" placeholder="Password" class="mb-3">
+                                                    <label for="termcheck" class="mb-3 terms-check">
+                                                        <input type="checkbox" id="termcheck">
+                                                        I agree to the
+                                                        <a href="#">Terms of use </a>
+                                                        and
+                                                        <a href="#">Terms of use </a>
+                                                    </label>
+                                                    <button class="primary-btn">Sign Up</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-section">
+                                <div class="banner-section-inner">
+                                    <div class="banner-section-inner-content">
+                                        <h3 id="banner-title"></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

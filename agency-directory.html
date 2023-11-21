@@ -1,1 +1,746 @@
-agency-directory.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency Directory</title>
+    <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/vendors/slick-slider/slick.css">
+    <link rel="stylesheet" href="./assets/vendors/slick-slider/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="page-agency-directory">
+    <header>
+        <div>
+            <img src="./assets/images/logo/logo.png" alt="" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li class="has-dropdown">
+                    <a href="#">SEO Services <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menus">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <li><a href="#">Content Writting</a></li>
+                                <li><a href="#">Content Marketing</a></li>
+                                <li><a href="#">Copyrighing</a></li>
+                                <li><a href="#">Keyword Research</a></li>
+                            </div>
+                            <div>
+
+                                <li><a href="#">Digital PR</a></li>
+                                <li><a href="#">SEO Strategy</a></li>
+                                <li><a href="#">Link Building</a></li>
+                                <li><a href="#">Technical SEO</a></li>
+                            </div>
+                        </div>
+
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Locations <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menus">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <li><a href="#">London SEO</a></li>
+                                <li><a href="#">Manchester SEO</a></li>
+                                <li><a href="#">Birmingham SEO</a></li>
+                                <li><a href="#">Liverpool SEO</a></li>
+                                <li><a href="#">Leeds SEO</a></li>
+                                <li><a href="#">Bristol SEO</a></li>
+                            </div>
+                            <div>
+                                <li><a href="#">Sheffield SEO</a></li>
+                                <li><a href="#">Nottingham SEO</a></li>
+                                <li><a href="#">Brighton SEO</a></li>
+                                <li><a href="#">Newcastle SEO</a></li>
+                                <li><a href="#">Southampton SEO</a></li>
+                                <li><a href="#">Chester SEO</a></li>
+                            </div>
+                            <div>
+                                <li><a href="#">Edinburgh SEO</a></li>
+                                <li><a href="#">Clasgow SEO</a></li>
+                                <li><a href="#">Cardiff SEO</a></li>
+                                <li><a href="#">Wrexham SEO</a></li>
+                                <li><a href="#">Swansea SEO</a></li>
+                                <li><a href="#">Belfast SEO</a></li>
+                            </div>
+                        </div>
+
+                    </ul>
+                </li>
+                <li><a href="./faq.html">About</a></li>
+                <li><a href="./blog.html">Blog </a></li>
+                <li><a href="./signup.html" class="for-divider">Login</i></a></li>
+                <li><a href="./agency-directory.html" class="primary-btn">Find an agency</i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="common-banner"></div>
+
+        <section class="agency-banner-info">
+            <div class="container">
+                <div class="agency-banner-inner-info">
+
+                    <h3>Top SEO Companies in the United Kingdom</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque magnam officiis error
+                        excepturi magni, odit aliquam. Tenetur ab esse quis, error animi quod tempora eos! Itaque
+                        voluptatum iusto est dolorem, minima consectetur unde, animi non sequi ad repellat voluptates.
+                        Omnis expedita dicta modi enim dolor magni maiores perferendis adipisci cupiditate?</p>
+                    <a href="#" class="readmore-link">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="agency-wrapper">
+            <div class="container">
+                <div>
+                    <div class="agencies-section-header">
+                        <div class="company-count">
+                            <p>34 Companies</p>
+                        </div>
+                        <div>
+                            <form action="">
+                                <label for="" class="sort-label">Sort: </label>
+                                <select name="" id="" class="sort-select-input">
+                                    <option value="">By Rating</option>
+                                    <option value="">By Project Fee (asc)</option>
+                                    <option value="">By Project Fee (desc)</option>
+                                    <option value="">By Retainer Fee (asc)</option>
+                                    <option value="">By Retainer Fee (desc)</option>
+                                    <option value="">By Employees (asc)</option>
+                                    <option value="">By Employees (desc)</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="row" id="agency-directory-list">
+                        <div class="col-lg-3">
+                            <div class="left-side-widgets">
+                                <h3 class="left-side-widgets-title">Filter By</h3>
+
+                                <div class="left-widget">
+                                    <h4 class="left-widget-title">Categories</h4>
+                                    <a href="#">Content Writting</a>
+                                    <a href="#">Content Marketing</a>
+                                    <a href="#">Copyrighing</a>
+                                    <a href="#">Digital PR</a>
+                                    <a href="#">Keyword Research</a>
+                                    <a href="#">Link Building</a>
+                                    <a href="#">SEO Strategy</a>
+                                    <a href="#">SEO Migration</a>
+                                    <a href="#">Technical SEO</a>
+                                </div>
+                                <div class="left-widget">
+                                    <h4 class="left-widget-title">Service you need</h4>
+                                    <div class="d-flex align-items-center gap-2 mb-2">
+                                        <input id="freelancers" value="freelancers" type="radio" name="service_need">
+                                        <label for="freelancers"> Freelancers </label>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <input type="radio" id="agencies" value="agencies" name="service_need">
+                                        <label for="agencies">Agencies</label>
+
+                                    </div>
+                                </div>
+                                <div class="left-widget">
+                                    <h4 class="left-widget-title">Number of employees</h4>
+                                    <div class="d-flex align-items-center gap-2 mb-2">
+                                        <input type="radio" id="1to9" value="1to9" name="num_of_employees">
+                                        <label for="1to9"> 1 - 9 </label>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2  mb-2">
+                                        <input type="radio" id="10to50" value="10to50" name="num_of_employees">
+                                        <label for="10to50">10 - 50</label>
+
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2  mb-2">
+                                        <input type="radio" id="50to100" value="50to100" name="num_of_employees">
+                                        <label for="50to100">50 - 100</label>
+
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <input type="radio" id="100plus" value="100plus" name="num_of_employees">
+                                        <label for="100plus">100+</label>
+                                    </div>
+                                </div>
+                                <div class="left-widget">
+                                    <h4 class="left-widget-title">Min. project fee</h4>
+                                    <div class="d-flex align-items-center gap-2 mb-2">
+                                        <input type="radio" id="less100" value="less100" name="project_fee">
+                                        <label for="less100"> Less then $100 </label>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2  mb-2">
+                                        <input type="radio" id="price2" value="price100to500" name="project_fee">
+                                        <label for="price2">$100 - $500</label>
+
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2  mb-2">
+                                        <input type="radio" id="price3" value="price500to1k" name="project_fee">
+                                        <label for="price3">$500 - $1k </label>
+
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <input type="radio" id="price4" value="price1kplus" name="project_fee">
+                                        <label for="price4">$1k+</label>
+                                    </div>
+                                </div>
+                                <div class="left-widget">
+                                    <h4 class="left-widget-title">Min. retainer fee</h4>
+                                    <div class="d-flex align-items-center gap-2 mb-2">
+                                        <input type="radio" id="price5" value="less100" name="retainer_fee">
+                                        <label for="price5"> Less then $100 </label>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2  mb-2">
+                                        <input type="radio" id="price6" value="price100to500" name="retainer_fee">
+                                        <label for="price6">$100 - $500</label>
+
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2  mb-2">
+                                        <input type="radio" id="price7" value="price500to1k" name="retainer_fee">
+                                        <label for="price7">$500 - $1k </label>
+
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <input type="radio" id="price8" value="price1kplus" name="retainer_fee">
+                                        <label for="price8">$1k+</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="row">
+                                <div class="col-lg-4 mb-2">
+                                    <div class="agency-card">
+                                        <div class="text-center">
+                                            <div class="agency-logo-section">
+                                                <img src="./assets/images/logo/1.png" alt=""
+                                                    class="img-fluid agency-logo">
+                                            </div>
+                                            <div>
+                                                <h4 class="agency-name">GenieCrawl</h4>
+                                                <p class="agency-type">Digital Marketing Agency</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="agency-rating">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                        </div>
+                                        <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
+                                            <div>
+                                                <div class="mb-3">
+                                                    <p class="aminity">Min. Project Fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                                <div>
+                                                    <p class="aminity">Min. retainer fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="aminity">Employees</p>
+                                                <p class="price">34-40</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="" class="primary-btn">Connect</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2">
+                                    <div class="agency-card">
+                                        <div class="text-center">
+                                            <div class="agency-logo-section">
+                                                <img src="./assets/images/logo/1.png" alt=""
+                                                    class="img-fluid agency-logo">
+                                            </div>
+                                            <div>
+                                                <h4 class="agency-name">GenieCrawl</h4>
+                                                <p class="agency-type">Digital Marketing Agency</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="agency-rating">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                        </div>
+                                        <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
+                                            <div>
+                                                <div class="mb-3">
+                                                    <p class="aminity">Min. Project Fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                                <div>
+                                                    <p class="aminity">Min. retainer fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="aminity">Employees</p>
+                                                <p class="price">34-40</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="" class="primary-btn">Connect</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2">
+                                    <div class="agency-card">
+                                        <div class="text-center">
+                                            <div class="agency-logo-section">
+                                                <img src="./assets/images/logo/1.png" alt=""
+                                                    class="img-fluid agency-logo">
+                                            </div>
+                                            <div>
+                                                <h4 class="agency-name">GenieCrawl</h4>
+                                                <p class="agency-type">Digital Marketing Agency</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="agency-rating">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                        </div>
+                                        <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
+                                            <div>
+                                                <div class="mb-3">
+                                                    <p class="aminity">Min. Project Fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                                <div>
+                                                    <p class="aminity">Min. retainer fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="aminity">Employees</p>
+                                                <p class="price">34-40</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="" class="primary-btn">Connect</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2">
+                                    <div class="agency-card">
+                                        <div class="text-center">
+                                            <div class="agency-logo-section">
+                                                <img src="./assets/images/logo/1.png" alt=""
+                                                    class="img-fluid agency-logo">
+                                            </div>
+                                            <div>
+                                                <h4 class="agency-name">GenieCrawl</h4>
+                                                <p class="agency-type">Digital Marketing Agency</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="agency-rating">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                        </div>
+                                        <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
+                                            <div>
+                                                <div class="mb-3">
+                                                    <p class="aminity">Min. Project Fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                                <div>
+                                                    <p class="aminity">Min. retainer fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="aminity">Employees</p>
+                                                <p class="price">34-40</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="" class="primary-btn">Connect</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2">
+                                    <div class="agency-card">
+                                        <div class="text-center">
+                                            <div class="agency-logo-section">
+                                                <img src="./assets/images/logo/1.png" alt=""
+                                                    class="img-fluid agency-logo">
+                                            </div>
+                                            <div>
+                                                <h4 class="agency-name">GenieCrawl</h4>
+                                                <p class="agency-type">Digital Marketing Agency</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="agency-rating">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                        </div>
+                                        <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
+                                            <div>
+                                                <div class="mb-3">
+                                                    <p class="aminity">Min. Project Fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                                <div>
+                                                    <p class="aminity">Min. retainer fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="aminity">Employees</p>
+                                                <p class="price">34-40</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="" class="primary-btn">Connect</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2">
+                                    <div class="agency-card">
+                                        <div class="text-center">
+                                            <div class="agency-logo-section">
+                                                <img src="./assets/images/logo/1.png" alt=""
+                                                    class="img-fluid agency-logo">
+                                            </div>
+                                            <div>
+                                                <h4 class="agency-name">GenieCrawl</h4>
+                                                <p class="agency-type">Digital Marketing Agency</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="agency-rating">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                        </div>
+                                        <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
+                                            <div>
+                                                <div class="mb-3">
+                                                    <p class="aminity">Min. Project Fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                                <div>
+                                                    <p class="aminity">Min. retainer fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="aminity">Employees</p>
+                                                <p class="price">34-40</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="" class="primary-btn">Connect</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2">
+                                    <div class="agency-card">
+                                        <div class="text-center">
+                                            <div class="agency-logo-section">
+                                                <img src="./assets/images/logo/1.png" alt=""
+                                                    class="img-fluid agency-logo">
+                                            </div>
+                                            <div>
+                                                <h4 class="agency-name">GenieCrawl</h4>
+                                                <p class="agency-type">Digital Marketing Agency</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="agency-rating">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                        </div>
+                                        <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
+                                            <div>
+                                                <div class="mb-3">
+                                                    <p class="aminity">Min. Project Fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                                <div>
+                                                    <p class="aminity">Min. retainer fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="aminity">Employees</p>
+                                                <p class="price">34-40</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="" class="primary-btn">Connect</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2">
+                                    <div class="agency-card">
+                                        <div class="text-center">
+                                            <div class="agency-logo-section">
+                                                <img src="./assets/images/logo/1.png" alt=""
+                                                    class="img-fluid agency-logo">
+                                            </div>
+                                            <div>
+                                                <h4 class="agency-name">GenieCrawl</h4>
+                                                <p class="agency-type">Digital Marketing Agency</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="agency-rating">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                        </div>
+                                        <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
+                                            <div>
+                                                <div class="mb-3">
+                                                    <p class="aminity">Min. Project Fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                                <div>
+                                                    <p class="aminity">Min. retainer fee</p>
+                                                    <p class="price">$384</p>
+
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="aminity">Employees</p>
+                                                <p class="price">34-40</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="" class="primary-btn">Connect</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="location-list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3 class="location-list-title">Other Locations</h3>
+                        <a href="./locations.html" class="primary-btn">View All</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a class="location-list-item" href="#">London SEO</a>
+                        <a class="location-list-item" href="#">Manchester SEO</a>
+                        <a class="location-list-item" href="#">Birmingham SEO</a>
+                        <a class="location-list-item" href="#">Liverpool SEO</a>
+                        <a class="location-list-item" href="#">Leeds SEO</a>
+                        <a class="location-list-item" href="#">Bristol SEO</a>
+                        <a class="location-list-item" href="#">Sheffield SEO</a>
+                        <a class="location-list-item" href="#">Nottingham SEO</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a class="location-list-item" href="#">Edinburgh SEO</a>
+                        <a class="location-list-item" href="#">Clasgow SEO</a>
+                        <a class="location-list-item" href="#">Cardiff SEO</a>
+                        <a class="location-list-item" href="#">Wrexham SEO</a>
+                        <a class="location-list-item" href="#">Swansea SEO</a>
+                        <a class="location-list-item" href="#">Belfast SEO</a>
+                        <a class="location-list-item" href="#">Southampton SEO</a>
+                        <a class="location-list-item" href="#">Chester SEO</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="agency-directory-faq">
+            <div class="container">
+                <div class="agency-directory-faq-content">
+                    <div>
+                        <h3 class="text-center mb-5">How to choose an SEO agency in [Location]?</h3>
+                    </div>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How can i find an SEO agency in my [Location]?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Browse the agency list above or <a href="">click here</a> to tell us about your
+                                    requirements and we will find the most suitable agencies for you.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Why hire an SEO agency or freelancer?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What to look for when choosing an SEO agency?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How much do an SEO agency take charge?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-top-section">
+                    <div class="row">
+                        <div class="col-lg-3 mb-2">
+                            <img src="./assets/images/logo/logo.png" alt="" class="logo">
+                        </div>
+                        <div class="col-lg-3 mb-2">
+                            <h3 class="widget-title">Categories</h3>
+                            <ul class="widget-menu">
+                                <li><a href="#">Content Writting</a></li>
+                                <li><a href="#">Content Marketing </a></li>
+                                <li><a href="#">Copyrighing </a></li>
+                                <li><a href="#">Digital PR </a></li>
+                                <li><a href="#">Keyword Research </a></li>
+                                <li><a href="#">Link Building </a></li>
+                                <li><a href="#">SEO Strategy </a></li>
+                                <li><a href="#">SEO Migration </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 mb-2">
+                            <h3 class="widget-title">For Agencies</h3>
+                            <ul class="widget-menu">
+                                <li><a href="#">How it works?</a></li>
+                                <li><a href="#">Pricing </a></li>
+                                <li><a href="#">I need an agency </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 mb-2">
+                            <h3 class="widget-title">For Freelancers</h3>
+                            <ul class="widget-menu">
+                                <li><a href="#">How it works?</a></li>
+                                <li><a href="#">Pricing </a></li>
+                                <li><a href="#">I need an freelancer </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom-section">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <p class="copyright-text">&copy; 2023 | copyright findyourSEO</p>
+                        </div>
+                        <div class="footer-bottom-section-menu">
+                            <a href="#">Terms</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Help Center</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendors/slick-slider/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

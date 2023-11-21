@@ -714,7 +714,6 @@ footer{
 .profile-form label {
     font-size: 13px;
     color: var(--textColor);
-    margin-bottom: 4px;
 }
 
 .profile-photo-form{
@@ -758,4 +757,7 @@ footer{
 }
 .input-img{
     display: none;
+}
+.img-label{
+    margin-bottom: none;
 }

@@ -93,6 +93,17 @@ input[type=email] {
     font-weight: 400;
 
 }
+
+.primary-btn-lg{
+    border: none;
+    outline: none;
+    background: var(--primaryColor);
+    color: white;
+    padding: 8px 70px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
 .readmore-link{
     font-size: 12px;
     color: var(--primaryColor);

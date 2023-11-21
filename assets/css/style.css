@@ -709,3 +709,53 @@ footer{
 }
 
 
+
+/* Profile Page */
+.profile-form label {
+    font-size: 13px;
+    color: var(--textColor);
+    margin-bottom: 4px;
+}
+
+.profile-photo-form{
+    width: 35%;
+    margin: 0 auto;
+}
+.profile-image-section {
+    text-align: center;
+    position: relative;
+    border: 1px solid var(--borderColor);
+    height: 143px;
+    width: 150px;
+    border-radius: 50%;
+}
+.profile-logo {
+    height: 140px;
+    width: 140px;
+    object-fit: contain;
+    
+}
+.profile-image-section span {
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--bodyColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image-section span i {
+    color: var(--bodyColor);
+    background-color: var(--primaryColor);
+    padding: 9px;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+}
+.input-img{
+    display: none;
+}

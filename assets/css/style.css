@@ -868,3 +868,12 @@ footer {
 .img-label {
     margin-bottom: none;
 }
+
+
+/* FAQ */
+.hired-option-item{
+    background-color: var(--grayColor);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}

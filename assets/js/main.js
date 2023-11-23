@@ -25,18 +25,20 @@ function openTab(evt, tabName) {
 // 
 function showNav() {
     var close = document.querySelector('.bar-close-icon');
+    var icon = document.querySelector('.bar-icon');
     var nav = document.querySelector('#nav');
         nav.style.display = 'block';
         close.style.display = 'block';
-        this.style.display = 'none';
+        icon.style.display = 'none';
 }
 
 function closeNav() {
     var bar = document.querySelector('.bar-icon');
+    var close = document.querySelector('.bar-close-icon');
     var nav = document.querySelector('#nav');
         nav.style.display = 'none';
         bar.style.display = 'block';
-        this.style.display = 'none';
+        close.style.display = 'none';
 }
 
 function showFilter(){

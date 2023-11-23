@@ -74,7 +74,31 @@
     .location-list-title{
         margin-bottom: 10px;
     }
-
+    .left-side-widgets{
+        display: none;
+    }
+    .filter-icon{
+        display: block;
+        position: absolute;
+        bottom: 12px;
+        right: 20px;
+    }
+    .filter-close-icon{
+        display: none;
+        position: absolute;
+        bottom: 12px;
+        right: 20px;
+    }
+    .agencies-section-header {
+        position: relative;
+        align-items: center;
+    }
+    /* .filter-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    } */
 }
 
 @media(max-width: 550px) {

@@ -25,25 +25,33 @@ function openTab(evt, tabName) {
 // 
 function showNav() {
     var close = document.querySelector('.bar-close-icon');
-    var bar = document.querySelector('.bar-icon');
     var nav = document.querySelector('#nav');
-
-    bar.addEventListener('click', function () {
         nav.style.display = 'block';
         close.style.display = 'block';
         this.style.display = 'none';
-    });
-
 }
 
 function closeNav() {
-    var close = document.querySelector('.bar-close-icon');
     var bar = document.querySelector('.bar-icon');
     var nav = document.querySelector('#nav');
-
-    close.addEventListener('click', function () {
         nav.style.display = 'none';
         bar.style.display = 'block';
         this.style.display = 'none';
-    });
+}
+
+function showFilter(){
+    let widget = document.querySelector('.left-side-widgets');
+    let closeIcon = document.querySelector('.filter-close-icon');
+    let Icon = document.querySelector('.filter-icon');
+    widget.style.display = 'block';
+    closeIcon.style.display = 'block';
+    Icon.style.display = 'none';
+}
+function closeFilter(){
+    let widget = document.querySelector('.left-side-widgets');
+    let Icon = document.querySelector('.filter-icon');
+    let closeIcon = document.querySelector('.filter-close-icon');
+    widget.style.display = 'none';
+    closeIcon.style.display = 'none';
+    Icon.style.display = 'block';
 }

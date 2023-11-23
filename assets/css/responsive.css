@@ -91,14 +91,10 @@
     }
     .agencies-section-header {
         position: relative;
-        align-items: center;
     }
-    /* .filter-section{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-    } */
+    .filter-section{
+        display: block;
+    }
 }
 
 @media(max-width: 550px) {

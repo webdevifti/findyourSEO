@@ -683,7 +683,9 @@ footer {
 .accordion-body {
     font-size: 12px !important;
 }
-
+.filter-section{
+    display: none;
+}
 
 /* Sign Up Page */
 

@@ -57,6 +57,11 @@ h6 {
     height: 35px;
     width: 100%;
 }
+.input-col-6{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 section{
     padding: 50px 0px;
 }

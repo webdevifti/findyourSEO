@@ -7,6 +7,9 @@
 
 @media(max-width: 768px) {
 
+    .primary-btn-lg{
+        padding: 8px 50px;
+    }
     /* Signup Page */
     .signup-page .signup-section-wrapper {
         width: 90%;
@@ -60,6 +63,17 @@
         display: block;
     }
 
+    /*  */
+    .agency-directory-faq-content {
+        width: 100%;
+    }
+
+    .location-list{
+        text-align: center;
+    }
+    .location-list-title{
+        margin-bottom: 10px;
+    }
 
 }
 

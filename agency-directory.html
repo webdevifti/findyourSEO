@@ -18,7 +18,9 @@
         <div>
             <img src="./assets/images/logo/logo.png" alt="" class="logo">
         </div>
-        <nav>
+        <i class="fa-solid fa-bars-staggered bar-icon" onclick="showNav()"></i>
+        <i class="fa-solid fa-xmark bar-close-icon" onclick="closeNav()"></i>
+        <nav id="nav">
             <ul>
                 <li class="has-dropdown">
                     <a href="#">SEO Services <i class="fa-solid fa-chevron-down"></i></a>
@@ -80,6 +82,7 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <div class="common-banner"></div>
 
@@ -121,7 +124,7 @@
                     </div>
 
                     <div class="row" id="agency-directory-list">
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 mb-5">
                             <div class="left-side-widgets">
                                 <h3 class="left-side-widgets-title">Filter By</h3>
 
@@ -216,7 +219,7 @@
                         </div>
                         <div class="col-lg-9">
                             <div class="row">
-                                <div class="col-lg-4 mb-2">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mb-2">
                                     <div class="agency-card">
                                         <div class="text-center">
                                             <div class="agency-logo-section">
@@ -260,7 +263,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 mb-2">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mb-2">
                                     <div class="agency-card">
                                         <div class="text-center">
                                             <div class="agency-logo-section">
@@ -304,7 +307,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 mb-2">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mb-2">
                                     <div class="agency-card">
                                         <div class="text-center">
                                             <div class="agency-logo-section">
@@ -348,7 +351,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 mb-2">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mb-2">
                                     <div class="agency-card">
                                         <div class="text-center">
                                             <div class="agency-logo-section">
@@ -392,7 +395,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 mb-2">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mb-2">
                                     <div class="agency-card">
                                         <div class="text-center">
                                             <div class="agency-logo-section">
@@ -436,7 +439,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 mb-2">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mb-2">
                                     <div class="agency-card">
                                         <div class="text-center">
                                             <div class="agency-logo-section">
@@ -480,7 +483,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 mb-2">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mb-2">
                                     <div class="agency-card">
                                         <div class="text-center">
                                             <div class="agency-logo-section">
@@ -524,7 +527,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 mb-2">
+                                <div class="col-lg-4 col-md-4 col-sm-12 mb-2">
                                     <div class="agency-card">
                                         <div class="text-center">
                                             <div class="agency-logo-section">
@@ -579,11 +582,11 @@
         <section class="location-list">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 mb-2">
                         <h3 class="location-list-title">Other Locations</h3>
                         <a href="./locations.html" class="primary-btn">View All</a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 mb-2">
                         <a class="location-list-item" href="#">London SEO</a>
                         <a class="location-list-item" href="#">Manchester SEO</a>
                         <a class="location-list-item" href="#">Birmingham SEO</a>
@@ -593,7 +596,7 @@
                         <a class="location-list-item" href="#">Sheffield SEO</a>
                         <a class="location-list-item" href="#">Nottingham SEO</a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 mb-2">
                         <a class="location-list-item" href="#">Edinburgh SEO</a>
                         <a class="location-list-item" href="#">Clasgow SEO</a>
                         <a class="location-list-item" href="#">Cardiff SEO</a>
@@ -723,7 +726,7 @@
                     </div>
                 </div>
                 <div class="footer-bottom-section">
-                    <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center justify-content-between footer-bottom-section-content">
                         <div>
                             <p class="copyright-text">&copy; 2023 | copyright findyourSEO</p>
                         </div>

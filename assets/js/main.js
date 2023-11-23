@@ -23,3 +23,27 @@ function openTab(evt, tabName) {
 }
 
 // 
+function showNav() {
+    var close = document.querySelector('.bar-close-icon');
+    var bar = document.querySelector('.bar-icon');
+    var nav = document.querySelector('#nav');
+
+    bar.addEventListener('click', function () {
+        nav.style.display = 'block';
+        close.style.display = 'block';
+        this.style.display = 'none';
+    });
+
+}
+
+function closeNav() {
+    var close = document.querySelector('.bar-close-icon');
+    var bar = document.querySelector('.bar-icon');
+    var nav = document.querySelector('#nav');
+
+    close.addEventListener('click', function () {
+        nav.style.display = 'none';
+        bar.style.display = 'block';
+        this.style.display = 'none';
+    });
+}

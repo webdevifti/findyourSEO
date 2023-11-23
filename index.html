@@ -18,7 +18,9 @@
         <div>
             <img src="./assets/images/logo/logo.png" alt="" class="logo">
         </div>
-        <nav>
+        <i class="fa-solid fa-bars-staggered bar-icon" onclick="showNav()"></i>
+        <i class="fa-solid fa-xmark bar-close-icon" onclick="closeNav()"></i>
+        <nav id="nav">
             <ul>
                 <li class="has-dropdown">
                     <a href="#">SEO Services <i class="fa-solid fa-chevron-down"></i></a>
@@ -148,7 +150,7 @@
         <section class="about-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 about-section-content">
                         <h3 class="section-heading">How we can help</h3>
                         <p class="section-subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
                             soluta? Officiis in a nam,
@@ -171,14 +173,14 @@
 
         <section class="seo-news">
             <div class="container">
-                <div class="text-center mb-5 w-50 m-auto">
+                <div class="text-center mb-5 w-50 m-auto section-heading-wrapper">
                     <h3 class="section-heading">SEO News</h3>
                     <p class="section-subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, soluta?
                         Officiis in a nam,
                         saepe laboriosam eius </p>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 mb-2">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                         <div class="news-item">
                             <div>
                                 <img src="./assets/images/signup.jpg" alt="" class="img-fluid rounded">
@@ -192,7 +194,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-2">
+                    <div class="col-lg-4 col-md-6 col-sm-12  mb-3">
                         <div class="news-item">
                             <div>
                                 <img src="./assets/images/signup.jpg" alt="" class="img-fluid rounded">
@@ -206,7 +208,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-2">
+                    <div class="col-lg-4 col-md-6 col-sm-12  mb-3">
                         <div class="news-item">
                             <div>
                                 <img src="./assets/images/signup.jpg" alt="" class="img-fluid rounded">
@@ -226,7 +228,7 @@
 
         <section class="featured-agency">
             <div class="container">
-                <div class="text-center mb-5 w-50 m-auto">
+                <div class="section-heading-wrapper text-center mb-5 w-50 m-auto">
                     <h3 class="section-heading">Featured Agency</h3>
                     <p class="section-subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, soluta?
                         Officiis in a nam,
@@ -238,7 +240,7 @@
                             <div class="agency-card">
                                 <div class="text-center">
                                     <div class="agency-logo-section">
-                                        <img src="./assets/images/logo/1.png" alt="" class="img-fluid agency-logo">
+                                        <img src="./assets/images/logo/1.png" alt="" class="agency-logo">
                                     </div>
                                     <div>
                                         <h4 class="agency-name">GenieCrawl</h4>
@@ -282,54 +284,7 @@
                                 <div class="text-center">
                                     <div>
                                         <div class="agency-logo-section">
-                                            <img src="./assets/images/logo/2.png" alt=""
-                                                class="img-fluid agency-logo">
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h4 class="agency-name">GenieCrawl</h4>
-                                        <p class="agency-type">Digital Marketing Agency</p>
-                                    </div>
-
-                                </div>
-                                <div class="agency-rating">
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-regular fa-star"></i></li>
-                                </div>
-                                <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
-                                    <div>
-                                        <div class="mb-3">
-                                            <p class="aminity">Min. Project Fee</p>
-                                            <p class="price">$384</p>
-
-                                        </div>
-                                        <div>
-                                            <p class="aminity">Min. retainer fee</p>
-                                            <p class="price">$384</p>
-
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <p class="aminity">Employees</p>
-                                        <p class="price">34-40</p>
-
-                                    </div>
-                                </div>
-                                <div class="text-center">
-                                    <a href="" class="primary-btn-lg">Connect</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 mb-2">
-                            <div class="agency-card">
-                                <div class="text-center">
-                                    <div>
-                                        <div class="agency-logo-section">
-                                            <img src="./assets/images/logo/3.png" alt=""
-                                                class="img-fluid agency-logo">
+                                            <img src="./assets/images/logo/2.png" alt="" class="agency-logo">
                                         </div>
                                     </div>
                                     <div>
@@ -374,8 +329,52 @@
                                 <div class="text-center">
                                     <div>
                                         <div class="agency-logo-section">
-                                            <img src="./assets/images/logo/4.png" alt=""
-                                                class="img-fluid agency-logo">
+                                            <img src="./assets/images/logo/3.png" alt="" class="agency-logo">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4 class="agency-name">GenieCrawl</h4>
+                                        <p class="agency-type">Digital Marketing Agency</p>
+                                    </div>
+
+                                </div>
+                                <div class="agency-rating">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-regular fa-star"></i></li>
+                                </div>
+                                <div class="d-flex align-items-start justify-content-between mt-4 mb-4">
+                                    <div>
+                                        <div class="mb-3">
+                                            <p class="aminity">Min. Project Fee</p>
+                                            <p class="price">$384</p>
+
+                                        </div>
+                                        <div>
+                                            <p class="aminity">Min. retainer fee</p>
+                                            <p class="price">$384</p>
+
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="aminity">Employees</p>
+                                        <p class="price">34-40</p>
+
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <a href="" class="primary-btn-lg">Connect</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-2">
+                            <div class="agency-card">
+                                <div class="text-center">
+                                    <div>
+                                        <div class="agency-logo-section">
+                                            <img src="./assets/images/logo/4.png" alt="" class="agency-logo">
                                         </div>
                                     </div>
                                     <div>
@@ -421,7 +420,7 @@
                                     <div>
                                         <div class="agency-logo-section">
                                             <img src="./assets/images/logo/logo.png" alt=""
-                                                class="img-fluid agency-logo">
+                                                class="agency-logo">
                                         </div>
                                     </div>
                                     <div>
@@ -472,7 +471,7 @@
                     <div class="cta-content-inner">
                         <div class="d-flex align-items-center justify-content-center flex-column gap-3">
                             <h5>For Agencies & Freelancers</h5>
-                            <h3 >Find talent your way</h3>
+                            <h3>Find talent your way</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, soluta?
                                 Officiis in a nam, saepe laboriosam eius </p>
                             <a href="#" class="primary-btn bg-white text-dark">Get Started</a>
@@ -522,7 +521,7 @@
                     </div>
                 </div>
                 <div class="footer-bottom-section">
-                    <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center justify-content-between footer-bottom-section-content">
                         <div>
                             <p class="copyright-text">&copy; 2023 | copyright findyourSEO</p>
                         </div>
@@ -567,8 +566,57 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 4000,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         });
 
+        function showNav(){
+    var close =document.querySelector('.bar-close-icon');
+    var bar =document.querySelector('.bar-icon');
+    var nav =document.querySelector('#nav');
+
+    bar.addEventListener('click', function(){
+        nav.style.display = 'block';
+        close.style.display = 'block';
+        this.style.display = 'none';
+    });
+
+}
+
+function closeNav(){
+    var close =document.querySelector('.bar-close-icon');
+    var bar =document.querySelector('.bar-icon');
+    var nav =document.querySelector('#nav');
+
+    close.addEventListener('click', function(){
+        nav.style.display = 'none';
+        bar.style.display = 'block';
+        this.style.display = 'none';
+    });
+}
     </script>
 </body>
 

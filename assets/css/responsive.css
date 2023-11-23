@@ -1,38 +1,110 @@
 /*  */
-@media(max-width: 1024px){
+@media(max-width: 1024px) {
     /* Signup Page */
-    
+
 
 }
-@media(max-width: 768px){
+
+@media(max-width: 768px) {
+
     /* Signup Page */
-    .signup-page .signup-section-wrapper{
+    .signup-page .signup-section-wrapper {
         width: 90%;
         height: 75vh;
     }
-    .signup-section-wrapper-inner{
-      display: flex;
-      align-items: center;
-      height: 0;
+
+    .signup-section-wrapper-inner {
+        display: flex;
+        align-items: center;
+        height: 0;
     }
-    .signup-page .signup-section-wrapper .banner-section{
+
+    .signup-page .signup-section-wrapper .banner-section {
         width: 0%;
         visibility: hidden;
     }
-    .signup-page .signup-section-wrapper .form-section{
+
+    .signup-page .signup-section-wrapper .form-section {
         width: 100%;
     }
-    .signup-page .signup-section-wrapper .form-section .signup-form .input-col-6{
+
+    .signup-page .signup-section-wrapper .form-section .signup-form .input-col-6 {
         gap: 15px;
         flex-direction: column;
     }
-   
-    
+    nav {
+        display: none;
+        background-color: var(--bodyColor);
+        width: 75%;
+        height: 100%;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        z-index: 999;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .dropdown-menus {
+        display: none;
+        position: absolute;
+        width: 250px;
+        right: -75px;
+    }
+    header nav ul li a.for-divider{
+        border-left: none;
+    }
+    .bar-icon{
+        display: block;
+    }
+
 
 }
-@media(max-width: 550px){
+
+@media(max-width: 550px) {
+    .banner-inner-content {
+        text-align: center;
+        padding: 15px;
+    }
+    .banner-inner-content .search-form {
+        width: 90%;
+    }
+    .banner-inner-content .search-form .search-btn,
+    .banner-inner-content .search-form input[type=search] {
+        font-size: 14px;
+        padding: 8px 24px;
+    }
+    .popular-services .services-slider .service-slider-item {
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .about-section-content{
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .section-heading-wrapper{
+        width: 90% !important;
+    }
+    .section-subheading{
+        font-size: 12px;
+    }
+    .featured-agency{
+        padding: 0px 10px;
+    }
+    .featured-agency-slider{
+        padding: 0px 10px;
+    }
+    .cta-content-inner {
+        padding: 2px;
+    }
+    .footer-bottom-section-content{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
 
 }
-@media(max-width: 360px){
 
-}
+@media(max-width: 360px) {}

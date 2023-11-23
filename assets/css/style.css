@@ -52,6 +52,15 @@ h5,
 h6 {
     color: var(--headingColor);
 }
+
+.bar-icon, .bar-close-icon {
+    display: none;
+    font-size: 20px;
+    padding: 9px;
+    background-color: var(--borderColor);
+    cursor: pointer;
+    border-radius: 50%;
+}
 .common-banner{
     background-image: var(--headerBottomGradient);
     height: 35px;
@@ -367,8 +376,6 @@ header nav ul li.has-dropdown:hover .dropdown-menus{
     height: 50px;
     border-radius: 50%;
     object-fit: contain;
-    border: 1px solid var(--primaryColor);
- 
 }
 .agency-name{
     font-size: 18px;

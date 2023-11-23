@@ -8,7 +8,7 @@
     /* Signup Page */
     .signup-page .signup-section-wrapper{
         width: 90%;
-        height: 90vh;
+        height: 75vh;
     }
     .signup-section-wrapper-inner{
       display: flex;

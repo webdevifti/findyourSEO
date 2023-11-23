@@ -877,3 +877,51 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
+/* Pricing  Page */
+.pricing-above-card {
+    padding: 25px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    border: 1px solid var(--borderColor);
+}
+.pricing-above-card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pricing-above-card-content img {
+    width: 100px;
+    height: 80px;
+}
+.pricing-above-card-content h3{
+    font-size: 16px;
+}
+.pricing-main-card{
+    margin: 40px 0px;
+}
+.pricing-main-card h3{
+    font-size: 22px;
+}
+.pricing-main-card .plans-info{
+    text-align: justify;
+    font-size: 12px;
+    font-size: 600;
+    color: var(--headingColor);
+}
+.pricing-main-card .plan-price {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--headingColor);
+}
+.pricing-main-card .plan-duration{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--headingColor);
+}
+
+.plans-feature{
+    border-top: 1px solid var(--borderColor);
+    padding: 40px 0px;
+}

@@ -925,3 +925,19 @@ footer {
     border-top: 1px solid var(--borderColor);
     padding: 40px 0px;
 }
+
+
+
+/* Blog  */
+.blog-wrapper{
+    padding: 50px 0px;
+}
+
+.blog-section-title{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.page-title{
+    margin: 20px 0px;
+}
